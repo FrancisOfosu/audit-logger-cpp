@@ -1,0 +1,16 @@
+/*Build a basic command - line program that logs a user’s name and
+action in a clean, audit - style format.*/
+
+#include<iostream>
+#include<string>
+int main()
+{
+	std::string fname;
+	std::string action;
+	std::cout << "Enter your full name: ";
+	std::getline(std::cin, fname);
+	std::cout << "Enter action performed: ";
+	std::getline(std::cin, action);
+	std::cout << "[AUDIT] " <<fname <<" performed " <<"'"<<action<<"'";
+	return 0;
+}

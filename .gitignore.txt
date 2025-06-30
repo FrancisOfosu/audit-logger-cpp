@@ -1,0 +1,9 @@
+# Ignore Visual Studio and build files
+.vs/
+*.suo
+*.user
+*.VC.db
+*.VC.opendb
+*.exe
+*.obj
+*.log
